@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v2 http://www.garmin.com/xmlschemas/ActivityExtensionv2.xsd">
+    <Activities>
+        <Activity Sport="Biking">
+            <Id>2019-01-08T15:57:06Z</Id>
+            <Lap StartTime="2019-01-08T14:13:24Z">
+                <TotalTimeSeconds>6198</TotalTimeSeconds>
+                <DistanceMeters>18125</DistanceMeters>
+                <Calories>1956</Calories>
+                <Intensity>Active</Intensity>
+                <Cadence>73</Cadence>
+                <TriggerMethod>Manual</TriggerMethod>
+                <Track>
+                    <Trackpoint>
+                        <Time>2019-01-08T14:13:24Z</Time>
+                        <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+                            <Value>0</Value>
+                        </HeartRateBpm>
+                        <Position>
+                            <LatitudeDegrees>45.1338001</LatitudeDegrees>
+                            <LongitudeDegrees>7.0613005</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>426.005</AltitudeMeters>
+                        <DistanceMeters>0</DistanceMeters>
+                        <Cadence>24</Cadence>
+                        <Extensions>
+                            <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                                <Speed>1.250001</Speed>
+                                <Watts>0</Watts>
+                            </TPX>
+                        </Extensions>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <Time>2019-01-08T14:13:25Z</Time>
+                        <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+                            <Value>56</Value>
+                        </HeartRateBpm>
+                        <Position>
+                            <LatitudeDegrees>45.1337872</LatitudeDegrees>
+                            <LongitudeDegrees>7.0613159</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>426.012</AltitudeMeters>
+                        <DistanceMeters>0</DistanceMeters>
+                        <Cadence>24</Cadence>
+                        <Extensions>
+                            <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                                <Speed>1.8888905</Speed>
+                                <Watts>25</Watts>
+                            </TPX>
+                        </Extensions>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <Time>2019-01-08T14:13:26Z</Time>
+                        <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+                            <Value>59</Value>
+                        </HeartRateBpm>
+                        <Position>
+                            <LatitudeDegrees>45.1337701</LatitudeDegrees>
+                            <LongitudeDegrees>7.0613365</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>426.019</AltitudeMeters>
+                        <DistanceMeters>0</DistanceMeters>
+                        <Cadence>32</Cadence>
+                        <Extensions>
+                            <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                                <Speed>2.4166687</Speed>
+                                <Watts>130</Watts>
+                            </TPX>
+                        </Extensions>
+                    </Trackpoint>
+                </Track>
+                <Extensions>
+                    <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                        <MaxBikeCadence>166</MaxBikeCadence>
+                    </LX>
+                    <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                        <AvgSpeed>10</AvgSpeed>
+                    </LX>
+                    <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                        <AvgWatts>264</AvgWatts>
+                    </LX>
+                    <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+                        <MaxWatts>464</MaxWatts>
+                    </LX>
+                </Extensions>
+            </Lap>
+            <Creator xsi:type="Device_t">
+                <Name>fulgaz</Name>
+                <UnitId>3920059517</UnitId>
+                <ProductID>2067</ProductID>
+                <Version>
+                    <VersionMajor>3</VersionMajor>
+                    <VersionMinor>10</VersionMinor>
+                    <BuildMajor>0</BuildMajor>
+                    <BuildMinor>0</BuildMinor>
+                </Version>
+            </Creator>
+        </Activity>
+    </Activities>
+    <Author xsi:type="Application_t">
+        <Name>Fit2Tcx</Name>
+        <Build>
+            <Version>
+                <VersionMajor>2</VersionMajor>
+                <VersionMinor>9</VersionMinor>
+                <BuildMajor>1</BuildMajor>
+                <BuildMinor>0</BuildMinor>
+            </Version>
+            <Type>Release</Type>
+        </Build>
+        <LangID>EN</LangID>
+        <PartNumber>006-A0160-00</PartNumber>
+    </Author>
+</TrainingCenterDatabase>
